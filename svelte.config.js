@@ -4,6 +4,8 @@ import adapterStatic from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		adapter: adapterStatic({
+			pages: 'build',
+			assets: 'build',
 			fallback: null
 		}),
 		prerender: {
