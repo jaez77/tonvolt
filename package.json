@@ -4,17 +4,18 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.18",
-    "@sveltejs/kit": "1.0.0-next.137",
-    "svelte": "^3.40.3"
+    "preview": "svelte-kit preview",
+    "deploy": "npm run build && npx gh-pages -d build"
   },
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
+    "cookie": "^0.4.2"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-cloudflare": "^1.0.0-next.16",
+    "@sveltejs/kit": "^1.0.0-next.303",
+    "svelte": "^3.46.4"
   }
 }
