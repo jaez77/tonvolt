@@ -1,7 +1,7 @@
 <svelte:head>
   <title>Tonvolt Studio</title>
   <link type="text/css" rel="stylesheet" href="css/index.min.css" />
-  <script defer type="text/javascript" src="assets/js/skel.min.js"></script>
+  <!-- <script defer type="text/javascript" src="assets/js/skel.min.js"></script> -->
   <script
     defer
     type="text/javascript"

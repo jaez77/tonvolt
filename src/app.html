@@ -3,9 +3,18 @@
 
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" href="/favicon.png" />
+	<meta name="description" content="Tonvolt, the revolution" />
+	<link rel="icon" href="%svelte.assets%/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer>
+		window.onload = function () { document.body.classList.remove('is-preload'); }
+		window.ontouchmove = function () {
+			return false;
+		};
+		window.onorientationchange = function () {
+			document.body.scrollTop = 0;
+		};
+	</script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5V9QZXTNE0"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -18,7 +27,7 @@
 	%svelte.head%
 </head>
 
-<body id="svelte" class="loading">
+<body class="is-preload">
 	%svelte.body%
 </body>
 

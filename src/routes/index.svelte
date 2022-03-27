@@ -1,11 +1,7 @@
 <svelte:head>
-  <script defer src="js/skel.min.js"></script>
-  <script defer src="js/init.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css" />
   <noscript>
-    <link rel="stylesheet" href="css/skel.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style-wide.css" />
-    <link rel="stylesheet" href="css/style-noscript.css" />
+    <link rel="stylesheet" href="/assets/css/noscript.css" />
   </noscript>
 </svelte:head>
 
@@ -16,14 +12,14 @@
     <header id="header">
       <h1>TONVOLT</h1>
       <p>
-        Web Apps &nbsp;&bull;&nbsp; iOS Apps &nbsp;&bull;&nbsp; We're
+        Web Apps &nbsp;&bull;&nbsp; Mobile Apps &nbsp;&bull;&nbsp; We're
         approaching.
       </p>
       <nav>
         <ul>
           <li>
-            <a href="mailto:ceo@tonvolt.com" class="fa fa-envelope-o"
-              ><span>Email</span></a
+            <a href="mailto:ceo@tonvolt.com" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
             >
           </li>
         </ul>
@@ -31,7 +27,7 @@
     </header>
 
     <footer id="footer">
-      <span class="copyright">Tonvolt &copy; 2021</span>
+      <span class="copyright">Tonvolt &copy; 2022</span>
     </footer>
   </div>
 </div>
