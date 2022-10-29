@@ -1,20 +1,23 @@
 {
   "name": "tonvoltweb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "dev": "vite dev --host --port 8077",
+    "build": "vite build",
+    "preview": "vite preview --host"
   },
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.2"
+    "cookie": "^0.4.2",
+    "ua-parser-js": "^1.0.32",
+    "vcard-js": "^1.2.2"
   },
   "devDependencies": {
-    "@sveltejs/adapter-cloudflare": "^1.0.0-next.16",
-    "@sveltejs/kit": "^1.0.0-next.303",
-    "svelte": "^3.46.4"
+    "@sveltejs/adapter-cloudflare": "^1.0.0-next.39",
+    "@sveltejs/kit": "^1.0.0-next.528",
+    "svelte": "^3.52.0",
+    "vite": "^3.1.6"
   }
 }
