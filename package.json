@@ -11,8 +11,7 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.2",
-    "ua-parser-js": "^1.0.32",
-    "vcard-js": "^1.2.2"
+    "ua-parser-js": "^1.0.32"
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "^1.0.0-next.39",
