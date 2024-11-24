@@ -1,4 +1,4 @@
-<div class="quus" />
+<div class="quus"></div>
 
 <svelte:head>
   <style>
@@ -29,8 +29,6 @@
 </svelte:head>
 
 <style>
-  @import url("//fonts.googleapis.com/css?family=Exo+2");
-
   .quus {
     background-image: linear-gradient(120deg, #34e0f0 0%, #b400ff 100%);
     border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
